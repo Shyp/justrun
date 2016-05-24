@@ -14,6 +14,8 @@ import (
 	"time"
 )
 
+const Version = "1.0"
+
 var (
 	help           = flag.Bool("help", false, "print this help text")
 	h              = flag.Bool("h", false, "print this help text")
